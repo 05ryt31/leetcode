@@ -24,6 +24,7 @@ class Solution:
                 s = s.replace("[]", "")
             elif "{}" in s:
                 s = s.replace("{}", "")
-        
+
+        # return not s と書くのが簡潔でわかりやすい。
         if s: return True
         else: return False
